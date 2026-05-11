@@ -1,0 +1,6 @@
+id: ${id}
+name: ${name}
+main: cc.maicra999.taxa.Taxa
+version: ${version}
+authors: [ KabanFriends ]
+api: 2.9.0

@@ -1,0 +1,9 @@
+[versions]
+spotless = "8.2.1"
+geyser-api = "2.9.5-SNAPSHOT"
+
+[libraries]
+geyser-api = { group = "org.geysermc.geyser", name = "api", version.ref = "geyser-api" }
+
+[plugins]
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
