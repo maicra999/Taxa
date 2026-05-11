@@ -33,6 +33,8 @@ repositories {
 
 dependencies {
     compileOnly(libs.geyser.api)
+    compileOnly(libs.guava)
+    compileOnly(libs.gson)
 }
 
 tasks {

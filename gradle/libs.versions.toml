@@ -1,9 +1,13 @@
 [versions]
 spotless = "8.2.1"
 geyser-api = "2.9.5-SNAPSHOT"
+guava = "33.6.0-jre"
+gson = "2.14.0"
 
 [libraries]
 geyser-api = { group = "org.geysermc.geyser", name = "api", version.ref = "geyser-api" }
+guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
 
 [plugins]
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
